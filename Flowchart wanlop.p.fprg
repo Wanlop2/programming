@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-04 04:53:51 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVRFTDNISDg7MjU2Mi0wOC0wNDswNDo0MDowMSBBTTsyNzQz"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVRFTDNISDg7MjU2Mi0wOC0wNDswNDo0NDozMCBBTTszO1JPRztMQVBUT1AtQzVDU0NNRlA7MjU2Mi0wOC0wMzswNToyMzoxOSBQTTsyMjIyMjIyMi5mcHJnOzY0NDk="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVRFTDNISDg7MjU2Mi0wOC0wNDswNDo1Mzo1MSBBTTsxOzI4NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FoundtionEnglish" type="Real" array="False" size=""/>
+            <declare name="generalBusiness" type="Real" array="False" size=""/>
+            <declare name="introductiontoComputerSystems" type="Real" array="False" size=""/>
+            <declare name="computerProgarmming" type="Real" array="False" size=""/>
+            <input variable="FoundtionEnglish"/>
+            <input variable="generalBusiness"/>
+            <input variable="introductiontoComputerSystems"/>
+            <input variable="computerProgarmming"/>
+            <output expression="&quot;------Your Score------&quot;" newline="True"/>
+            <assign variable="x" expression="59"/>
+            <assign variable="y" expression="60"/>
+            <assign variable="z" expression="78"/>
+            <assign variable="c" expression="70"/>
+            <output expression="x=50" newline="True"/>
+            <output expression="y=60" newline="True"/>
+            <output expression="z=78" newline="True"/>
+            <output expression="c=70" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

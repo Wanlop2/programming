@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-03 05:48:29 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVRFTDNISDg7MjU2Mi0wOC0wMzswNToyNzoxNiBQTTsyNzY5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVRFTDNISDg7MjU2Mi0wOC0wMzswNTo0ODoyOSBQTTsxOzI4ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="High" type="Real" array="False" size=""/>
+            <declare name="Base" type="Real" array="False" size=""/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <input variable="High"/>
+            <input variable="Base"/>
+            <assign variable="Area" expression="0.5*High*Base"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
